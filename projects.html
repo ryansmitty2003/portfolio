@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>Elements Reference - Massively by HTML5 UP</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Header -->
+      <header id="header">
+        <a class="logo">Ryan Smith Portfolio</a>
+      </header>
+
+      <!-- Nav -->
+      <nav id="nav">
+        <ul class="links">
+          <li><a href="index.html">Home</a></li>
+          <li class="active"><a href="projects.html">More On Projects</a></li>
+          <li><a href="volunteering.html">Volunteering</a></li>
+          <li><a href="fun.html">For Fun</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+        <ul class="icons">
+          <li>
+            <a
+              href="https://www.linkedin.com/in/ryan-louis-smith/"
+              class="icon brands fa-linkedin"
+              ><span class="label">linkedin</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/ryansmitty2003"
+              class="icon brands fa-github"
+              ><span class="label">GitHub</span></a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Main -->
+      <div id="main">
+        <!-- Post -->
+        <section class="post">
+          <header class="major">
+            <h2>More On Projects</h2>
+          </header>
+          <hr />
+          <!-- Image -->
+          <div id="greenhead">
+            <h2>LBI GreenHead Project</h2>
+
+            <h3>The Problem</h3>
+            <p>
+              <span class="image left">
+                <img src="images/greenhead1.jpeg" alt="" />
+              </span>
+              Nestled within the serene landscapes of Long Beach Island, where
+              my family now calls home, lies an indigenous irritant: the
+              greenhead, or scientifically, <i>Tabanus nigrovittatus</i>. These
+              persistent bugs, notorious for their painful bites, have been a
+              longstanding adversary for locals, including my mom. It's not
+              uncommon for residents to reevaluate their beach outings when
+              greenheads are in abundance. However, living amidst them has given
+              me an insight into their behavioral patterns, influenced by
+              specific weather and seasonal changes. Motivated by this, I
+              initiated research with the aspiration to develop a predictive
+              tool, enabling beach enthusiasts to anticipate and navigate these
+              nuisances, ensuring more enjoyable coastal adventures.
+            </p>
+            <h3>Research</h3>
+            <p>
+              <span class="image right">
+                <img src="images/trap.jpg" alt="" /> </span
+              >In my quest to understand the greenhead phenomenon near Long
+              Beach Island, I engaged with renowned marine experts from ReClam
+              The Bay. This environmental group has been at the forefront of
+              efforts to protect and rejuvenate the marine ecosystems of the
+              region, providing a wealth of knowledge and resources.
+              Furthermore, the research conducted by the Rutgers Entomology
+              Department played a pivotal role in my understanding.
+              Complementing these expert insights, I embarked on a hands-on data
+              collection process from greenhead traps along my street. This
+              allowed me to monitor their activity throughout the summer months
+              closely. By combining this first-hand data with the expertise of
+              specialists and the findings from Rutgers, I meticulously crafted
+              an algorithm capable of predicting greenhead activity, offering
+              beach-goers a much-needed respite from these persistent pests.
+            </p>
+            <h3>Deployment</h3>
+            <p>
+              <span class="image left"
+                ><img src="images/greenheadwebsite.jpeg" alt="" /></span
+              >Utilizing the power of the MERN stack, I developed an intuitive
+              application that seamlessly merges real-time weather data from
+              WeatherMapAPI with my proprietary greenhead prediction algorithm.
+              When users access the app, they're promptly presented with an
+              assessment of the anticipated greenhead activity for the day.
+              Recognizing the need for continuous improvement, I embedded a
+              feedback mechanism within the app. This allows users to validate
+              the prediction's accuracy. Each user submission, combined with the
+              prevailing weather conditions and prediction data, is archived in
+              a MongoDB database. This wealth of user-driven data not only
+              provides insights but actively aids in fine-tuning the algorithm,
+              ensuring its adaptability and relevance. An 'Info' section on the
+              platform offers a brief on the pivotal research and findings that
+              shaped this project.
+            </p>
+            <p class="align-center">
+              <strong>Tool's Used: </strong>Python, MongoDB, Express, React,
+              Node
+            </p>
+            <div class="button-group">
+              <ul class="actions special">
+                <li>
+                  <a href="https://lbigreenhead.com/" class="button large"
+                    >Live Site</a
+                  >
+                </li>
+              </ul>
+              <ul class="actions special">
+                <li>
+                  <a
+                    href="https://github.com/ryansmitty2003/greenhead"
+                    class="button large"
+                    >GitHub Repo</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <hr />
+
+          <div id="dalle">
+            <h2>Dalle-Clone</h2>
+            <span class="image fit">
+              <img src="images/sunsetdalle.jpg" alt="" />
+              <div class="caption">Here's an AI generated Digital Sunset</div>
+            </span>
+            <p>
+              <span class="image left"
+                ><img src="images/teddydalle.jpg" alt="" /></span
+              >Creating a clone of OpenAI's DALL-E was both a challenging and
+              fulfilling endeavor. The fundamental idea behind my version was to
+              have an interactive interface where users could input prompts, and
+              in return, they would receive AI-generated images, mirroring the
+              capabilities of the original DALL-E. Utilizing the DALL-E API,
+              upon receiving a user's prompt, I made API calls to fetch the
+              generated images. This process was streamlined using Express.js,
+              which served as the backend framework to handle API requests and
+              responses. Node.js aided in managing the server-side operations
+              seamlessly, ensuring the efficient fetching and storage of images.
+            </p>
+            <p>
+              <span class="image right"
+                ><img src="images/fishdalle.jpg" alt="" /></span
+              >Once the image was procured from the DALL-E API, it was essential
+              to store it in a manner that was both scalable and easily
+              retrievable. That's where MongoDB came into play; it served as a
+              robust database to log each generated image's metadata. However,
+              for actual image storage, I leveraged Cloudinary, a cloud-based
+              image management service. It not only allowed for efficient image
+              storage but also offered optimized delivery, ensuring that users
+              had a fast and smooth browsing experience. On the frontend,
+              React.js played a crucial role. It enabled the creation of a
+              dynamic and responsive user interface. Users could search for
+              specific images, and the React components would render a gallery
+              view of the AI-generated images, pulling data in real-time from
+              MongoDB and Cloudinary. This full MERN stack integration ensured a
+              seamless flow of data, a responsive UI, and a scalable backend to
+              handle the complexities of AI image generation.
+            </p>
+            <p class="align-center">
+              <strong>Tool's Used: </strong>Python, MongoDB, Express, React,
+              Node
+            </p>
+            <div class="button-group">
+              <ul class="actions special">
+                <li>
+                  <a href="https://rls-dalle.online/" class="button large"
+                    >Live Site</a
+                  >
+                </li>
+              </ul>
+              <ul class="actions special">
+                <li>
+                  <a
+                    href="https://github.com/ryansmitty2003/dall-e-clone"
+                    class="button large"
+                    >GitHub Repo</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <hr />
+
+          <div id="hackathon">
+            <h2>News Corp Global AI Hack-a-thon</h2>
+            <span class="image fit">
+              <img src="images/hackathon.JPG" alt="" />
+              <div class="caption">Here's my team during our Hack-a-thon!</div>
+            </span>
+
+            <p>
+              <span class="image left"
+                ><img src="images/slackers.jpeg" alt=""
+              /></span>
+              Working closely with a team, we pioneered a chatbot project aimed
+              at enhancing employee connections for our challenge: crafting a
+              social media application to unite employees via shared interests
+              and discussions from public channels. By extracting content from
+              Slack channels in JSON format, we innovatively matched employees
+              based on their project engagements and articulated passions. I
+              spearheaded the data processing using pandas and integrated it
+              into ChromaDB, ensuring contextual depth. We further enriched our
+              bot's intelligence by assimilating an LLM (Language Model) for
+              astute data interpretation. The synergy of these technologies
+              birthed a state-of-the-art chatbot, lauded and awarded the
+              <strong>"Most Innovative Idea"</strong> for its efficacy in
+              fostering genuine team collaborations.
+            </p>
+            <p class="align-center">
+              <strong>Tool's Used: </strong>Pandas, ChromaDB, Slack, Python Node
+            </p>
+          </div>
+        </section>
+      </div>
+
+      <!-- Footer -->
+      <footer id="footer">
+        <section class="split contact">
+          <section class="flex-container">
+            <h3>Email</h3>
+            <p>
+              <a href="mailto:ryanlsmith191@gmail.com"
+                >ryanlsmith191@gmail.com</a
+              >
+            </p>
+          </section>
+          <section>
+            <h3>Social</h3>
+            <ul class="icons alt">
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/ryan-louis-smith/"
+                  class="icon brands fa-linkedin"
+                  ><span class="label">linkedin</span></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/ryansmitty2003"
+                  class="icon brands alt fa-github"
+                  ><span class="label">GitHub</span></a
+                >
+              </li>
+            </ul>
+          </section>
+        </section>
+      </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
